@@ -1,0 +1,113 @@
+* {
+    
+}
+
+body {
+}
+
+.introduction {
+    position: relative;
+    background-image: linear-gradient(110deg, white 50%, #559bec 50%);
+    width: 100%;
+
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.intro-text {
+    display: inline-block;
+    width: 45%;
+    position: relative;
+    left: 0;
+    margin: 15px auto;
+}
+
+.intro-text h1 {
+    font-family: 'Bebas Neue', 'Metrophobic', 'Nunito', 'Merriweather', 'Arial';
+    font-size: 120px;
+    margin: 0 auto;
+}
+
+.intro-text h2, .intro-text p {
+    font-family: 'Metrophobic', 'Nunito', 'Merriweather', 'Arial';
+    margin: 0 auto;
+}
+
+.portrait {
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid;
+    filter: drop-shadow(8px 3px 0.75rem #2d63a0);
+    right: 0%;
+    width: 30%;
+    clear: right;
+}
+
+.about {
+    background-color: #559bec;
+    color: #FFF;
+    font-family: 'Metrophobic', 'Nunito', 'Merriweather', 'Arial';
+
+}
+
+.experience {
+    width: 100%;
+    display: block;
+    background-image: linear-gradient(110deg, #559bec 30%, white 10%);
+    font-family: 'Metrophobic', 'Nunito', 'Merriweather', 'Arial';
+}
+
+.front-end-tools-icons {
+    display: inline-block;
+    width: 50px;
+
+}
+
+.label {
+    font-family: 'Metrophobic', 'Nunito', 'Merriweather', 'Arial';
+}
+
+.tools {
+    display: block;
+}
+
+.tool-item {
+    display: inline-block;
+}
+
+.tools-logo {
+    width: 20px;
+}
+
+footer {
+    background-color: hsla(0, 0%, 20%);
+    bottom: 0px;
+    width: 100%;
+}
+
+.contact-info {
+    display: block;
+    font-family: 'Arial';
+    font-size: 14px;
+    text-align: center;
+    line-height: 8px;
+}
+
+.contact-link {
+    display: block;
+    margin: auto;
+    justify-items: center;
+}
+
+.logo {
+    width: 30px;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 20px 5px;
+}
