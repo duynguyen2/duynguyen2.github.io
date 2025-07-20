@@ -13,26 +13,31 @@
 
 <body>
     <header>
-
+        <h2 class="navbar-name">Duy Nguyen</h2>
         <nav>
-
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#tools">Skills & Tools</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
-
-        <section class="introduction">
-            <div c;ass="intro-container">
-                <div class="intro-text">
-                    <h2>Hey there, I am</h2>
-                    <h1>Duy Nguyen</h1>
-                    <p>Front-end Developer and UI/UX Designer</p>
-                </div>
-                
-                <img class="portrait" src="assets/duy_pic.jpg" alt="Picture of Duy Nguyen">
-            </div>
-        </section>
-
     </header>
 
-    <section class="about">
+    <section class="introduction">
+        <div class="intro-container">     
+            <div class="intro-text">
+                <h2>Hey there, I am</h2>
+                <h1>Duy Nguyen</h1>
+                <p>Front-end Developer and UI/UX Designer</p>
+            </div>
+            
+            <img class="portrait" src="assets/duy_pic.jpg" alt="Picture of Duy Nguyen">
+        </div>
+    </section>
+
+    <section id="about" class="about">
         <h1>Who is Duy?</h1>
         <p>
             Well the person making this portfolio page is me, Duy himself! 
@@ -45,7 +50,7 @@
         </p>
     </section>
 
-    <section class="experience">
+    <section id="experience" class="experience">
         <h1>Previous Experience</h1>
 
         <div>
@@ -94,7 +99,7 @@
 
     </section>
 
-    <section class="projects">
+    <section id="projects">
         <h1>Projects</h1>
         <p>Here is a list of some of the projects I have worked on, but for more details and the whole list, check out my GitHub linked at the bottom!</p>
 
@@ -112,8 +117,8 @@
         
     </section>
 
-    <section class="tools">
-        <h1 class="label">Tools Used</h1>
+    <section id="tools">
+        <h1 class="label">Skills and Tools Used</h1>
         <div class="front-end-tools">
             <h2 class="label">Front-End</h2>
             <div class="tool-item javascript">
@@ -156,20 +161,49 @@
             </div>
         </div>
     </section>
+
+    <section id="contact-form">
+        <h4>Send Me A Message</h4>
+        <p>I'd love to hear from you! Whether it's feedback, opportunities or just to say hi!</p>
+        <form>
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" placeholder="First Name" required>
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" placeholder="Last Name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" placeholder="email@address.place" required>
+            </div>
+            <div>
+                <label for="subject">Subject</label>
+                <input type="text" placeholder="Subject">
+            </div>
+            <div>
+                <label for="Message">Message</label>
+                <input type="text" placeholder="Leave your message here!" required>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <section id="contact-info">
+            <h3>Email: dcnguyen233@gmail.com</h3>
+            <h3>Phone Number: +1 (415) 730-4930</h3>
+        </section>
+
+        <section id="contact-links">
+            <div>
+                <a href="https://www.linkedin.com/in/duy-n-84385a13a/" target="_blank" rel="noopener"><img class="logo" src="assets/InBug-White.png" alt="LinkedIn Logo Link to Duy's LinkedIn"></a>
+                <a href="https://github.com/duynguyen2" target="_blank" rel="noopener"><img class="logo" src="assets/github-mark-white.png" alt="GitHub Logo Link"></a>
+                <a href="mailto:dcnguyen233@gmail.com" target="_blank" rel="noopener"><img class="logo" src="assets\icons8-mail-100.png" alt="Email"></a>
+            </div>
+        </section>
+    </footer>
 </body>
 
-<footer>
-    <section class="contact-info">
-        <h3>Email: dcnguyen233@gmail.com</h3>
-        <h3>Phone Number: +1 (415) 730-4930</h3>
-    </section>
 
-    <section class="contact-links">
-        <div>
-            <a href="https://www.linkedin.com/in/duy-n-84385a13a/" target="_blank" rel="noopener"><img class="logo" src="assets/InBug-White.png" alt="LinkedIn Logo Link to Duy's LinkedIn"></a>
-            <a href="https://github.com/duynguyen2" target="_blank" rel="noopener"><img class="logo" src="assets/github-mark-white.png" alt="GitHub Logo Link"></a>
-            <a href="mailto:dcnguyen233@gmail.com" target="_blank" rel="noopener"><img class="logo" src="assets\icons8-mail-100.png" alt="Email"></a>
-        </div>
-    </section>
-</footer>
 </html>
